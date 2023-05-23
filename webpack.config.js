@@ -5,7 +5,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
-    chunkFormat: 'jsonp', //обновление
+    filename: '[name].js',
+    libraryTarget: 'var',
+    library: 'MyLibrary',//обновление
   },
   module: {
     rules: [
