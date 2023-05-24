@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@jest/globals": "^29.5.0",
+    "chokidar": "^3.5.3",
     "core-js": "^3.30.2"
   }
 }
